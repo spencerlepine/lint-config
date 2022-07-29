@@ -14,7 +14,7 @@ $ yarn add eslint prettier @spencerlepine/eslint-config-react @spencerlepine/pre
 Update `package.json`
 ```diff
   "scripts": {
-+    "lint": "eslint"
++    "lint": "eslint --fix --ext .js,.jsx ."
   },
 ```
 
