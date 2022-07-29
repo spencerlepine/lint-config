@@ -28,3 +28,12 @@ $ npm install @spencerlepine/prettier-config-react --dev
   "prettier": "@spencerlepine/prettier-config"
 }
 ```
+
+## Updating the Version
+```sh
+# git clone and make changes
+# git commit & git push
+$ npm login –scope spencerlepine
+$ lerna version major # changes to 1.0.0, OR minor, patch semvar
+$ lerna publish from-git
+```
