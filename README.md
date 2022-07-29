@@ -5,9 +5,19 @@ Custom `ESLinst`, and `Prettier` configurations created with `Lerna`.
 ## Installation
 > Packages are published NPM
 ```sh
+$ npm i eslint prettier
 $ npm install @spencerlepine/eslint-config-react --dev
-$ npm install @spencerlepine/prettier-config-react --dev
+$ npm install @spencerlepine/prettier-config --dev
+# OR use yarn
+$ yarn add eslint prettier @spencerlepine/eslint-config-react @spencerlepine/prettier-config -D
 ```
+Update `package.json`
+```diff
+  "scripts": {
++    "lint": "eslint"
+  },
+```
+
 
 ## Usage
 
