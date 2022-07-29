@@ -1,0 +1,27 @@
+{
+  "name": "@spencerlepine/eslint-config-node",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Spencer Lepine <spencerlepine26@gmail.com>",
+  "homepage": "https://github.com/spencerlepine/lint-config#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spencerlepine/lint-config.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/spencerlepine/lint-config/issues"
+  },
+  "dependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}

@@ -6,7 +6,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^8.20.0"
   }
 }
